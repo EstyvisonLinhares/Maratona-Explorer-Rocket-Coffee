@@ -1,59 +1,68 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    border: 3px solid black;
-    background-color: blanchedalmond;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-items: center;
+    background-color: #FFEDD5;
+    height: 100vh;
 }
 
-.page-title {
-    border: 2px solid red;
-    width: 400px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+header {
+    text-align: center;
+    padding: 32px 0;
 }
 
-.page-title span {
+.menu-categories {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    max-width: 300px;
+    margin: 0 16px;
+}
+
+header {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+header h1 {
+    /* font-family: Roboto, serif; */
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 16px;
+}
+
+header h1 span {
     color: #d49747;
 }
 
-.menu {
-    border: 3px solid blueviolet;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
-}
 
-.menu h2 {
-    border: 3px solid green;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ h2 {
     background-color: #e1c197;
+    text-align: center;
 } 
 
 ul {
     list-style: none;
-    padding: 0;
 }
 
 li {
     display: flex;
-    margin-top: 16px;
+    margin: 16px 0;
 }
 
 .details {
-    border: 3px solid yellowgreen;
     margin-right: 8px;
+}
+
+.details h3 {
+    margin-bottom: 8px;
 }
