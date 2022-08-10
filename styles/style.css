@@ -6,7 +6,6 @@
 
 body {
     background-color: #FFEDD5;
-    height: 100vh;
 }
 
 header {
@@ -15,9 +14,10 @@ header {
 }
 
 .menu-categories {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1000px;
 }
 
 section {
